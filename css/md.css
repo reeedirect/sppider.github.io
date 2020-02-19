@@ -1,1 +1,168 @@
+﻿#main {
+    width:998px;
+    margin:10px auto 0;
+}
+.mframe {
+    margin-bottom: 4px;
+}
 
+    .mframe .tm {
+        border-bottom: #ace 1px solid;
+        border-left: #ace 1px solid;
+        line-height: 25px;
+        background: url(bg.gif) repeat-x;
+        height: 25px;
+        border-top: #ace 1px solid;
+        border-right: #ace 1px solid;
+    }
+
+    .mframe .tl {
+        display: none;
+        _margin-right: -3px;
+    }
+
+    .mframe .tr {
+        display: none;
+    }
+
+    .mframe span.tt {
+        padding-left: 10px;
+        color: #41519a;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .mframe .mm {
+        border-bottom: #ace 1px solid;
+        border-left: #ace 1px solid;
+        padding-bottom: 3px;
+        padding-left: 3px;
+        padding-right: 3px;
+        background: #fff;
+        overflow: hidden;
+        border-top: #ace 0px solid;
+        border-right: #ace 1px solid;
+        padding-top: 3px;
+    }
+
+    .mframe .ml {
+        display: none;
+    }
+
+    .mframe .mr {
+        display: none;
+    }
+
+    .mframe .bm {
+        display: none;
+    }
+
+    .mframe .bl {
+        display: none;
+    }
+
+    .mframe .br {
+        display: none;
+    }
+
+    .mframe ul.nl a {
+        font-size: 14px;
+    }
+
+    .mframe ul.pl a {
+        font-size: 14px;
+    }
+
+.lframe {
+    margin-bottom: 4px;
+    _width: 100%;
+}
+
+    .lframe .tm {
+        border-bottom: #ace 1px solid;
+        border-left: #ace 1px solid;
+        line-height: 25px;
+        background: url(bg.gif) repeat-x;
+        height: 25px;
+        border-top: #ace 1px solid;
+        border-right: #ace 1px solid;
+    }
+
+    .lframe .tl {
+        display: none;
+    }
+
+    .lframe .tr {
+        display: none;
+    }
+
+    .lframe span.tt {
+        padding-left: 10px;
+        color: #41519a;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .lframe .mm {
+        border-bottom: #ace 1px solid;
+        border-left: #ace 1px solid;
+        padding-bottom: 5px;
+        padding-left: 3px;
+        padding-right: 3px;
+        overflow: hidden;
+        border-top: #ace 0px solid;
+        border-right: #ace 1px solid;
+        padding-top: 5px;
+    }
+
+    .lframe .ml {
+        display: none;
+    }
+
+    .lframe .mr {
+        display: none;
+    }
+
+    .lframe .bm {
+        display: none;
+    }
+
+    .lframe .bl {
+        display: none;
+    }
+
+    .lframe .br {
+        display: none;
+    }
+
+.erj1 {
+    width: 224px;
+    height: 32px;
+    text-align: center;
+    font: 14px/32px Microsoft Yahei;
+    color: #fff;
+    background: url(../../images/two/book2.png) 61px center no-repeat #ff8000;
+}
+
+    .erj1 a {
+        color: #fff;
+    }
+
+.erj {
+    width: 224px;
+    height: 32px;
+    text-align: center;
+    font: 14px/32px Microsoft Yahei;
+    color: #333;
+    background: url(../../images/two/book.png) 61px center no-repeat #f0f0f0;
+}
+.sanj td {
+    text-align:left;
+    text-indent:2em;
+}
+#main a {
+    color:#333;
+}
+.infodetail img {
+    max-width:900px;
+}
