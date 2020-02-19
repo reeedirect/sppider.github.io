@@ -14,16 +14,16 @@ body .aside-nav {
 .aside-nav {
 	position: fixed;
 	/*right: -50px;*/
-	top: 350px;
-	width: 260px;
-	height: 260px;
+	top: 150px;
+	width: 160px;
+	height: 160px;
 	-webkit-filter: url(#goo);
 	filter: url(#goo);
 	-ms-user-select: none;
 	-moz-user-select: none;
 	-webkit-user-select: none;
 	user-select: none;
-	opacity: .75;
+	opacity: .40;
 	z-index: 20180817;
 }
 .aside-nav.no-filter {
@@ -32,8 +32,8 @@ body .aside-nav {
 }
 .aside-nav .aside-menu {
 	position: absolute;
-	width: 70px;
-	height: 70px;
+	width: 20px;
+	height: 20px;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 	background: #f34444;
@@ -43,9 +43,9 @@ body .aside-nav {
 	bottom: 0;
 	margin: auto;
 	text-align: center;
-	line-height: 70px;
+	line-height: 20px;
 	color: #fff;
-	font-size: 20px;
+	font-size: 10px;
 	z-index: 1;
 	cursor: move
 }
@@ -329,7 +329,7 @@ to {
 	animation-delay: 1s
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:240px) {
 .aside-nav {/* display: none!important */}
 }
 @media screen and (min-width:641px) and (max-width:1367px) {
