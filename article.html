@@ -203,6 +203,58 @@
                                                                 <font color="#666666" style="font-family:宋体">【信息时间：2020/02/19&nbsp;&nbsp;作者：<font color="red">省镇中附中</font>&nbsp;&nbsp;来源：<font color="red">省镇中附中</font>&nbsp;&nbsp;阅读次数：<script src="Upclicktimes.aspx"></script>】<a href="javascript:void(0)" onclick="window.print();"><font color="#000000" class="webfont">【我要打印】</font></a><a href="javascript:window.close()"><font color="#000000" class="webfont">【关闭】</font></a></font><font color="#000000"></font>
                                                             </td>
                                                         </tr>
+								  
+<script language=JavaScript>
+<!--
+var caution = false
+function setCookie(name, value, expires, path, domain, secure) {
+var curCookie = name + "=" + escape(value) +
+((expires) ? "; expires=" + expires.toGMTString() : "") +
+((path) ? "; path=" + path : "") +
+((domain) ? "; domain=" + domain : "") +
+((secure) ? "; secure" : "")
+if (!caution || (name + "=" + escape(value)).length <= 4000)
+document.cookie = curCookie
+else
+if (confirm("Cookie exceeds 4KB and will be cut!"))
+document.cookie = curCookie
+}
+function getCookie(name) {
+var prefix = name + "="
+var cookieStartIndex = document.cookie.indexOf(prefix)
+if (cookieStartIndex == -1)
+return null
+var cookieEndIndex = document.cookie.indexOf(";", cookieStartIndex + prefix.length)
+if (cookieEndIndex == -1)
+cookieEndIndex = document.cookie.length
+return unescape(document.cookie.substring(cookieStartIndex + prefix.length, cookieEndIndex))
+}
+function deleteCookie(name, path, domain) {
+if (getCookie(name)) {
+document.cookie = name + "=" +
+((path) ? "; path=" + path : "") +
+((domain) ? "; domain=" + domain : "") +
+"; expires=Thu, 01-Jan-70 00:00:01 GMT"
+}
+}
+function fixDate(date) {
+var base = new Date(0)
+var skew = base.getTime()
+if (skew > 0)
+date.setTime(date.getTime() - skew)
+}
+var now = new Date()
+fixDate(now)
+now.setTime(now.getTime() + 365 * 24 * 60 * 60 * 1000)
+var visits = getCookie("counter")
+if (!visits)
+visits = 1
+else
+visits = parseInt(visits) + 1
+setCookie("counter", visits, now)
+document.write(visits)
+// -->
+</script>
                                                        <td valign="top" class="infodetail" id="TDContent" align="left" style="word-wrap: break-word;">
                                                                 
                                                                 <!--EpointContent-->
@@ -274,7 +326,7 @@
 
             <div class="ewb-footer-txt">
 
-                <a href="http://www.miitbeian.gov.cn/" target="_blank">苏ICP备05002979号-1</a>单位：江苏省镇江中学附属初中　电话(传真)：0511-85633268&nbsp;
+                <a href="http://www.miitbeian.gov.cn/" target="_blank">苏ICP备05002979号-1</a>
                 <script type="text/javascript"><!--
     function getCookieVal(offset) {
         var endstr = document.cookie.indexOf(";", offset);
@@ -322,20 +374,13 @@
     document.write("总访问人数:" + "<FONT COLOR=red>" + 8530 + visits + "</FONT>" + "人！");
     document.write("今日访问人数:" + "<FONT COLOR=red>" + 3 + visits + "</FONT>" + "人！");
     //-->
-                </script>总访问人数:<font color="red">85302</font>人！今日访问人数:<font color="red">32</font>人！
+                </script>
             </div>
 
 
         </div>
     </div>
-
-
-
-
      
     <!-- fixed -->
-    
-    
-
 
 </body></html>
