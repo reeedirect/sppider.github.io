@@ -496,12 +496,12 @@ a {
 }
 
 .ewb-footer-links {
-    padding-top: 35px;
+    padding-top: 10px;
     text-align: center;
     font-size: 16px;
     float: left;
-    line-height: 35px;
-    padding-left: 250px;
+    line-height: 30px;
+    padding-left: 200px;
 }
 
 .ewb-guabiao img {
