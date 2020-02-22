@@ -259,7 +259,7 @@ document.write(77+visits)
                                                                 <!--EpointContent-->
 <script language=JavaScript>
 <!--
-    function getNowFormatDate() {
+    /*function getNowFormatDate() {
     var date = new Date();
     //var seperator1 = "-";
     //var seperator2 = ":";
@@ -275,15 +275,33 @@ document.write(77+visits)
             + " " + date.getHours() + seperator2 + date.getMinutes()
             + seperator2 + date.getSeconds()*/;
     
-    //alert(currentdate);
+    //alert(currentdate);*/
 }
 // --></script>
-	
+
+<script language=JavaScript>
+<!--
+var h5courseEle = document.getElementById('h5courseCom');
+ 
+// 实例化时间对象
+var date = new Date();
+// 获取年份
+//var y = date.getFullYear();        
+// 获取月份
+//var m = date.getMonth() + 1;
+// 获取日
+var d = date.getDate();
+ 
+// 在网页中显示时间：
+h5courseEle.innerHTML =/*y + '年' + m + '月' + */d + 2 /* '日'*/;
+	// --></script>
+							       
+							       
                                                                 <p align="center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 26pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 10.5pt; -ms-text-justify: inter-ideograph;"><u><span><span style="font family:宋体;"><b>
 <p align="center" style="margin: 0cm 0cm 0pt; text-align: center; line-height: 26pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 10.5pt; -ms-text-justify: inter-ideograph;"><b><span style="font-family: 宋体; font-size: 18pt;">省镇中附中开学有关事项</span></b></p>
 <p style="margin: 0cm 0cm 0pt; text-align: justify; line-height: 27pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 10.5pt; -ms-text-justify: inter-ideograph;"><span style="letter-spacing: 0.2pt; font-family: 仿宋_GB2312; font-size: 16pt;">尊敬的各位家长及亲爱的同学们：</span></p>
-<p style="margin: 0cm 0cm 0pt; text-align: justify; line-height: 27pt; text-indent: 32.8pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 10.5pt; -ms-text-justify: inter-ideograph;"><span style="letter-spacing: 0.2pt; font-family: 仿宋_GB2312; font-size: 16pt;">2020</span><span style="letter-spacing: 0.2pt; font-family: 仿宋_GB2312; font-size: 16pt;">的开年非常特殊，武汉的新冠肺炎疫情让大家无法按时开学，现因疫情有所缓解，经校团委会议决定：我校定于2月</span>document.write(getNowFormatDate()+1)日开学，初三各班于当日下午1：00返校，初一各班于下午2：30返校，初一各班于下午4：00返校。</span>
-document.write(getNowFormatDate()+1)
+<p style="margin: 0cm 0cm 0pt; text-align: justify; line-height: 27pt; text-indent: 32.8pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 10.5pt; -ms-text-justify: inter-ideograph;"><span style="letter-spacing: 0.2pt; font-family: 仿宋_GB2312; font-size: 16pt;">2020</span><span style="letter-spacing: 0.2pt; font-family: 仿宋_GB2312; font-size: 16pt;">的开年非常特殊，武汉的新冠肺炎疫情让大家无法按时开学，现因疫情有所缓解，经校团委会议决定：我校定于2月25日开学，初三各班于当日下午1：00返校，初一各班于下午2：30返校，初一各班于下午4：00返校。</span>
+h5courseEle.innerHTML =d + 2;
 <p style="margin: 0cm 0cm 0pt; text-align: justify; line-height: 27pt; text-indent: 32.8pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 10.5pt; -ms-text-justify: inter-ideograph;"><span style="letter-spacing: 0.2pt; font-family: 仿宋_GB2312; font-size: 16pt;"> 请相互转告，遵守开学时间，错峰出行，避免交叉感染。</span></p>
 <h2 style="background: white; margin: 0cm 0cm 0pt; line-height: 27pt; text-indent: 32.8pt;"><span style="letter-spacing: 0.2pt; font-family: 楷体_GB2312; font-size: 16pt;"></span><span style="letter-spacing: 0.2pt; font-family: 楷体_GB2312; font-size: 16pt;"> 江苏省镇江中学附属初中</span>
 <p style="margin: 0cm 0cm 0pt; text-align: justify; line-height: 27pt; text-indent: 32.8pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 10.5pt; -ms-text-justify: inter-ideograph;"><span style="letter-spacing: 0.2pt; font-family: 仿宋_GB2312; font-size: 16pt;"><span>2020</span>年<span>2</span>月<span>19</span>日<span></p>
@@ -338,7 +356,7 @@ document.write(getNowFormatDate()+1)
 	         <a>←←←←这里是假的!!!ATTENTION:THIS IS A FAKE PAGE!!!</a>
 		<a href="http://beian.miit.gov.cn/" target="_blank">苏ICP备05002979号-1</a><br>
                 <a>关于本站</a> │ <a>联系我们</a> | <a href="https://zjsycz.zje.net.cn/ecloud_zz_sycz/Template/Default/webmap.html">网站地图</a> | <a>网站申明</a> | <a href="http://desktop.zje.net.cn">管理员登陆</a><br>
-                主办单位：江苏省镇江中学附属初中      电话(传真)：0511-85633268<br>
+                主办单位：江苏省镇江中学附属初中      电话(传真)：0511-85633268<br> h5courseEle.innerHTML =d + 2;
             </div>
                 <script type="text/javascript"><!--
     function getCookieVal(offset) {
