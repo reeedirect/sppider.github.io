@@ -496,10 +496,10 @@ a {
 }
 
 .ewb-footer-links {
-    padding-top: 10px;
-    text-align: center;
+    padding-top: 27px;
+    text-align: -webkit-center;
     font-size: 16px;
-    float: left;
+    float: unset;
     line-height: 30px;
     padding-left: 200px;
 }
