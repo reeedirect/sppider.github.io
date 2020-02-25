@@ -214,11 +214,11 @@ var t=new Date();
 var day= t.getDate()-1;
 var month=t.getMonth()+1;
 var year=t.getFullYear();
-        if (month >= 1 && month <= 9) {
-            month = "0" + month;
-        }
-        if (strDate >= 0 && strDate <= 9) {
-            day = "0" + day;
+if (month >= 1 && month <= 9) {
+    month = "0" + month;
+}
+if (day >= 0 && day <= 9) {
+    day = "0" + day;
         }
 var showTime2=year+"-"+month+"-"+day;
 document.write("<font-family:'Times New Roman';color:#0A0A0D;>"+showTime2+"</font>");
