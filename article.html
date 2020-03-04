@@ -206,8 +206,8 @@ var t=new Date();
 var day= t.getDate()-1;
 var month=t.getMonth()+1;
 var year=t.getFullYear();
-var showTime2=year+"/"+month+"/"+day;
-document.write("<font-family:'Times New Roman';color:#0A0A0D;font-size:small;>"+showTime2+"</font>");
+var showTime=year+"/"+month+"/"+day;
+document.write("<font-family:'Times New Roman';color:#0A0A0D;font-size:small;>"+showTime+"</font>");
 </script>
 									&nbsp;&nbsp;作者：<font color="red">省镇中附中</font>&nbsp;&nbsp;来源：<font color="red">省镇中附中</font>&nbsp;&nbsp;阅读次数：<script language=JavaScript>
 <!--
@@ -273,44 +273,51 @@ document.write(77+visits)
 <p style="margin: 0cm 0cm 0pt; text-align: justify; line-height: 27pt; text-indent: 32.8pt; font-family:"Times New Roman","serif";font-size: 10.5pt; -ms-text-justify: inter-ideograph;">
 <!--<span style="letter-spacing: 0.2pt; font-family: 仿宋_GB2312; font-size: 16pt;">2020</span>-->
         <span style="letter-spacing: 0.2pt; font-family: 仿宋_GB2312; font-size: 16pt;">最近的新冠肺炎疫情让大家无法按时开学，现因疫情有所缓解，经校团委会议决定：我校定于</span>
+	
 <script type="text/javascript">
 var t=new Date();
 var month=t.getMonth()+1;
-var showTime3=month;
-//document.write("<font-family:'Times New Roman';color:#0A0A0D;font-size:small;>"+showTime3+"</font>");
-document.write("<font style='color:#000000;font-size:21.4px;'>"+showTime3+"</font>");
+var showTime1=month;
+//document.write("<font-family:'Times New Roman';color:#0A0A0D;font-size:small;>"+showTime1+"</font>");
+document.write("<font style='color:#000000;font-size:21.4px;'>"+showTime1+"</font>");
 </script>
+	
 	<span style="letter-spacing: 0.2pt; font-family: 仿宋_GB2312; font-size: 16pt;">月</span>
+	
 <script type="text/javascript">
 var t=new Date();
 var day= t.getDate();
-var showTime=day+2;
-document.write("<font style='color:#000000;font-size:21.4px;'>"+showTime+"</font>");
+var showTime2=day+2;
+document.write("<font style='color:#000000;font-size:21.4px;'>"+showTime2+"</font>");
 //document.write("<font-family:'Times New Roman';color:#0A0A0D;font-size:large;>"+showTime+"</font>");
 </script>
+	
 	<span style="letter-spacing: 0.2pt; font-family: 仿宋_GB2312; font-size: 16pt;">日开学，初三各班于当日下午1：00返校，初一各班于下午2：30返校，初一各班于下午4：00返校。</span>
-<!--<script type="text/javascript">
-var t=new Date();
-var day= t.getDate();
-var showTime=day+2;
-//document.write(showTime);
-//document.write("<font style=\"font-family:'Microsoft Yahei';font-size:10px;color:'red';\">showTime</font>");
-//document.write (“2月 < span style='color:red';font-size:10px>" + showTime  + "</span > 日”);
-//document.write("<font style='font-size:12px; color:#FF0000'>距</font>"+showTime+"<font style='font-size:12px; color:#FF0000'>开幕还有</font"+showTime+"<font style='font-size:12px; color:#FF0000'>天</font>");
-//document.write(<font style='color:#ff0000;font-size:23px;'>showTime</label>);
-document.write("<font-family:'Times New Roman';color:#0A0A0D;font-size:30px;>"+showTime+"</font>");
-</script>-->
 <p style="margin: 0cm 0cm 0pt; text-align: justify; line-height: 27pt; text-indent: 32.8pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 10.5pt; -ms-text-justify: inter-ideograph;"><span style="letter-spacing: 0.2pt; font-family: 仿宋_GB2312; font-size: 16pt;"> 请相互转告，遵守开学时间，错峰出行，避免交叉感染。</span></p>
 <h2 style="background: white; margin: 0cm 0cm 0pt; line-height: 27pt; text-indent: 32.8pt;"><span style="letter-spacing: 0.2pt; font-family: 楷体_GB2312; font-size: 16pt;"></span><span style="letter-spacing: 0.2pt; font-family: 楷体_GB2312; font-size: 16pt;"> 江苏省镇江中学附属初中</span><br>
 <!--<p style="margin: 0cm 0cm 0pt; text-align: justify; line-height: 27pt; text-indent: 32.8pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 10.5pt; -ms-text-justify: inter-ideograph;"><span style="letter-spacing: 0.2pt; font-family: 仿宋_GB2312; font-size: 16pt;"><span>2020</span>年<span>2</span>月<span>19</span>日<span></p>-->
-<script type="text/javascript">
-var t=new Date();
+
+<!--<script type="text/javascript">
+/*var t=new Date();
 var day= t.getDate()-1;
 var month=t.getMonth()+1;
 var year=t.getFullYear();
 var showTime3=year+"年"+month+"月"+day+"日"
-document.write("<font-family:'仿宋_GB2312';color:#0A0A0D;font-size:large;>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+showTime3+"</font>");
-</script>
+document.write("<font style='color:#000000;font-size:21.4px;'>"+showTime3+"</font>");
+document.write("<font-family:'仿宋_GB2312';color:#0A0A0D;font-size:large;>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+showTime3+"</font>");*/
+</script>-->
+	
+	<script type="text/javascript">
+        var date = new Date();
+        var year = date.getFullYear();
+        var month = date.getMonth() + 1;
+        var strDate = date.getDate();
+	if(strDate != 0){
+		strDate=strDate-1;
+		}
+        var currentdate = year+"年"+month+"月"+strDate+"日";
+	document.write("<font style='color:#000000;font-size:21.4px;'>"+currentdate+"</font>");
+	</script>				
       </td>
     </tr>
   </tbody>
