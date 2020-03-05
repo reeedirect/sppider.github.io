@@ -8,20 +8,25 @@
 <html xmlns="http://www.w3.org/1999/xhtml"> 
   <head> 
     <meta charset="gb2312" />
-    (function (doc, win) {
-  var docEl = doc.documentElement,
-    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
-    recalc = function () {
-      var clientWidth = docEl.clientWidth;
-      if (!clientWidth) return;
-      docEl.style.fontSize = 100 * (clientWidth / 320) + 'px';
-    };
- 
-  // Abort if browser does not support addEventListener
-  if (!doc.addEventListener) return;
-  win.addEventListener(resizeEvt, recalc, false);
-  doc.addEventListener('DOMContentLoaded', recalc, false);
-})(document, window);
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="format-detection" content="telephone=yes" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+
+//CSS里使用rem代替px，JS里根据屏幕大小修改rem的值
+window.setFontSize = function() {
+    var size = document.documentElement.clientWidth / 750 * 100;
+//  size = size > 50 ? size : 50
+//  console.log(size);
+    document.documentElement.style.fontSize = size.toString()  + "px";
+};
+setFontSize();
+//在屏幕大小变化时重新设置大小
+$(window).resize(function() {
+    setFontSize()
+});
     <style> 
       body{text-align:center} 
     </style> 
