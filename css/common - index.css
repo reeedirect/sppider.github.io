@@ -336,12 +336,12 @@ a {
     font-size: 12px;
     height: 36px;
     line-height: 36px;
-    background: url(../images/topbar_bg.jpg) left top repeat-x;
+    background: url(images/topbar_bg.jpg) left top repeat-x;
 }
 
 .ewb-welcome {
     text-indent: 23px;
-    background: url(../images/horn.png) left center no-repeat;
+    background: url(images/horn.png) left center no-repeat;
 }
 
 .ewb-greeting {
@@ -365,7 +365,7 @@ a {
 
 .ewb-banner {
     height: 197px;
-    background: url(../images/banner_bg.jpg) left top repeat-x;
+    background: url(images/banner_bg.jpg) left top repeat-x;
 }
 
 .ewb-banner-img > img {
@@ -377,13 +377,13 @@ a {
 
 .ewb-nav {
     height: 40px;
-    background: url(../images/nav_bg.jpg) top repeat-x;
+    background: url(images/nav_bg.jpg) top repeat-x;
 }
 
 .ewb-nav-items > li {
     float: left;
     width: 100px;
-    background: url(../images/nav_line.png) right center no-repeat;
+    background: url(images/nav_line.png) right center no-repeat;
 }
 
     .ewb-nav-items > li.ewb-nav-first {
@@ -492,7 +492,7 @@ a {
 
 .ewb-footer {
     height: 170px;
-    background: url(../images/foot_bg.jpg) top repeat-x #fdd5ae;
+    background: url(images/foot_bg.jpg) top repeat-x #fdd5ae;
 }
 
 .ewb-footer-links {
