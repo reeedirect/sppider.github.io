@@ -365,7 +365,7 @@ a {
 
 .ewb-banner {
     height: 197px;
-    background: url(/images/banner_bg.jpg) left top repeat-x;
+    background: url(/images/banner_bgbw.jpg) left top repeat-x;
 }
 
 .ewb-banner-img > img {
@@ -492,7 +492,7 @@ a {
 
 .ewb-footer {
     height: 170px;
-    background: url(/images/foot_bg.jpg) top repeat-x #fdd5ae;
+    background: url(/images/foot_bgbw.jpg) top repeat-x #D5D5D5;/#fdd5ae
 }
 
 .ewb-footer-links {
