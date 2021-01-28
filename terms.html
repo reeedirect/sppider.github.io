@@ -14,8 +14,23 @@
 		body{text-align:center}
 		body 
 		{
-			background-image: url("https://ae01.alicdn.com/kf/U9bda902d8aea4617a64b7903c38bd5c9j.jpg");
-			background-color: #E6E7E7;
+			-webkit-animation: colorchange 60s infinite; 
+			animation: colorchange 60s infinite;
+			@-webkit-keyframes colorchange {
+				0%  {background: #B5D5BB;}
+				25%  {background: #AAD5B2;}
+				50%  {background: #A0D5A9;}
+				75%  {background: #95D5A0;}
+				100% {background: #8ED59B;}
+			}
+			
+			@keyframes colorchange {
+				0%  {background: #B5D5BB;}
+				25%  {background: #AAD5B2;}
+				50%  {background: #A0D5A9;}
+				75%  {background: #95D5A0;}
+				100% {background: #8ED59B;}
+			}
 		}
 	</style> 
 </head> 
